@@ -1,0 +1,158 @@
+.hero-image {
+    display: flex;
+    font-size: 2em;
+    height: 50%;
+    background-image: url(https://get.pxhere.com/photo/tree-nature-forest-grass-branch-plant-lawn-meadow-sunlight-leaf-flower-recreation-environment-green-scenic-autumn-park-botany-garden-season-swing-trees-outdoors-branches-grove-woodland-woody-plant-1003524.jpg);
+    background-color: rgb(255, 255, 255, .6);
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-text {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 1.5em;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 3em;
+}
+
+.description {
+    background-color: rgb(245, 245, 220, .9);
+    opacity: none;
+    padding: 1em;
+    border-radius: 15px;
+}
+
+.heading {
+    font-family: 'Libre Bodoni', sans-serif;
+    font-size: 5em;
+    margin: auto;
+}
+
+.logo {
+    max-width: 12em;
+    margin-left: 0;
+}
+
+.portrait {
+    width: 9em;
+    border: 10px solid rgb(99, 99, 99);
+}
+
+@media (max-width: 800px) {
+    
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Baskervville', sans-serif;
+        background-color: rgb(245, 245, 219, .9);
+        height: 100%;
+    }
+    
+    .heading {
+        font-size: 2em;
+        margin-left: 1em;
+    }
+    
+    .logo {
+        max-width: 10em;
+    }
+    
+    header {
+        display: flex;
+        width: 100%;
+    }
+    
+    .hero-image {
+        background-image: none;
+        background-color: rgb(245, 245, 219);
+    }
+
+    .hero-text {
+        display: block;
+        max-width: fit-content;
+        gap: none;
+        margin-top: 1em;
+    }
+    
+    .description {
+        font-size: 20px;
+    }
+    
+    .portrait {
+        display: block;
+        width: 50%;
+        height: auto;
+        margin: auto;
+    }
+    
+    .headline {
+        display: block;
+        margin: auto;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        text-align: center;
+        background-color: #004f56;
+        color: #c6c3c3;
+    }
+
+    .headline h3 {
+        margin-left: 1em;
+        margin-right: 1em;
+        font-size: 30px;
+    }
+
+    .infoSection {
+        margin: auto 2em;
+    }
+
+    .services,
+    .reasons {
+        margin-bottom: 3em;
+    }
+
+    .infoSection li {
+        margin-bottom: .5em;
+    }
+
+    .cta {
+        margin: 1em;
+        margin-bottom: 2em;
+        text-align: center;
+    }
+
+    .schedule {
+        margin: 1em;
+        text-align: center;
+        margin-bottom: 3em;
+    }
+
+    .button {
+        margin-bottom: 2em;
+    }
+
+    .calendar {
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+        background-color: rgb(0, 96, 133);
+        padding: .5em;
+        border: 3px solid black;
+        border-radius: 15px;
+    }
+
+    .calendar:active {
+        background-image: radial-gradient(rgb(156, 156, 156), rgb(0, 96, 133))
+    }
+
+    footer {
+        text-align: center;
+        background-color: #004f56;
+        color: #c6c3c3;
+        padding: .5em;
+        font-size: 20px;
+    }
+
+}
