@@ -80,7 +80,7 @@ header {
 .infoSection {
     display: flex;
     justify-content: center;
-    gap: 5em;
+    gap: 4em;
     margin-top: 3em;
     margin-bottom: 3em;
     background-color: rgb(245, 245, 220, .9);
@@ -116,7 +116,7 @@ header {
 
 .cta {
     text-align: center;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 .schedule {
